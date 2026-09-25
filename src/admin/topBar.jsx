@@ -12,7 +12,7 @@ function TopBar({ accountClick, inputHandle }) {
           className="rounded-full hover:bg-zinc-400 w-9 h-9 sm:w-11 sm:h-11 md:w-12 md:h-12 lg:w-14 lg:h-14 overflow-hidden"
           onClick={accountClick}
         >
-          <img src="../public/pfp.png" className="w-full h-full object-cover" />
+          <img src="pfp.png" className="w-full h-full object-cover" />
         </button>
       </div>
     </nav>
